@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# vue-manage-system #
+
+# TP-mall vue #
 <a href="https://github.com/vuejs/vue">
     <img src="https://img.shields.io/badge/vue-2.6.10-brightgreen.svg" alt="vue">
   </a>
@@ -16,13 +16,7 @@
     <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
   </a>
 
-基于Vue.js + Element UI 的后台管理系统解决方案。[线上地址](http://blog.gdfengshuo.com/example/work/)
-
-本项目基于vue-cli3构建，如果是vue-cli2的请下载[旧版本V3.2.0](https://github.com/lin-xin/vue-manage-system/releases/tag/V3.2.0)
-
-> React + Ant Design 的版本正在开发中，仓库地址：[react-manage-system](https://github.com/lin-xin/react-manage-system)
-
-[English document](https://github.com/lin-xin/manage-system/blob/master/README_EN.md)
+该项目基于vue-manage-system解决方案进行的二次开发 基于Vue.js + Element UI 的电商后台。[线上地址](http://tpmall.crjblog.cn/)
 
 ## 项目截图 ##
 ### 登录
@@ -34,16 +28,9 @@
 ### 浅绿色皮肤 ###
 ![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms2.png)
 
-## 赞赏
-请作者喝杯咖啡吧！(微信号：linxin_20)
-
-![微信扫一扫](http://blog.gdfengshuo.com/images/weixin.jpg)
 
 ## 前言 ##
-之前在公司用了Vue + Element组件库做了个后台管理系统，基本很多组件可以直接引用组件库的，但是也有一些需求无法满足。像图片裁剪上传、富文本编辑器、图表等这些在后台管理系统中很常见的功能，就需要引用其他的组件才能完成。从寻找组件，到使用组件的过程中，遇到了很多问题，也积累了宝贵的经验。所以我就把开发这个后台管理系统的经验，总结成这个后台管理系统解决方案。
 
-该方案作为一套多功能的后台框架模板，适用于绝大部分的后台管理系统（Web Management System）开发。基于vue.js,使用vue-cli@3.2.3脚手架快速生成项目目录，引用Element UI组件库，方便开发快速简洁好看的组件。分离颜色样式，支持手动切换主题色，而且很方便使用自定义主题色。
-（已经升级到 vue-cli@3.2.3，请更新依赖）
 
 ## 功能 ##
 - [x] Element UI
@@ -180,7 +167,3 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 ## License
 
 [MIT](https://github.com/lin-xin/vue-manage-system/blob/master/LICENSE)
-=======
-# tpMall-vue
-tpmall-vue
->>>>>>> 2a4fff2ce5fc80db199eedff88b6d8fb0bbfb043
