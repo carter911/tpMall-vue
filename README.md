@@ -28,6 +28,11 @@
 ### 浅绿色皮肤 ###
 ![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms2.png)
 
+### 商品列表 ###
+![Image text](https://github.com/carter911/tpMall-vue/raw/master/screenshots/item_list.png)
+### 商品列表 ###
+![Image text](https://github.com/carter911/tpMall-vue/raw/master/screenshots/item_view.png)
+
 
 ## 前言 ##
 
