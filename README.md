@@ -52,10 +52,19 @@
 - [x] 可拖拽弹窗
 - [x] 国际化
 
+
+
+## 电商后台功能 ##
+- [ ] 首页DASHBOARD
+- [x] 商品管理
+- [ ] 用户管理
+- [ ] 订单管理
+- [ ] 系统权限
+- [ ] 数据统计
 ## 安装步骤 ##
 ```
-git clone https://github.com/lin-xin/vue-manage-system.git      // 把模板下载到本地
-cd vue-manage-system    // 进入模板目录
+git clone https://github.com/carter911/tpMall-vue.git      // 把模板下载到本地
+cd tpMall-vue    // 进入模板目录
 npm install         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
 
 // 开启服务器，浏览器访问 http://localhost:8080
@@ -163,7 +172,3 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 ```
 
 第三步：打开 src/components/common/Sidebar.vue 文件，找到 el-menu 标签，把 background-color/text-color/active-text-color 属性去掉即可。
-
-## License
-
-[MIT](https://github.com/lin-xin/vue-manage-system/blob/master/LICENSE)
