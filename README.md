@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-manage-system #
 <a href="https://github.com/vuejs/vue">
     <img src="https://img.shields.io/badge/vue-2.6.10-brightgreen.svg" alt="vue">
@@ -179,3 +180,7 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 ## License
 
 [MIT](https://github.com/lin-xin/vue-manage-system/blob/master/LICENSE)
+=======
+# tpMall-vue
+tpmall-vue
+>>>>>>> 2a4fff2ce5fc80db199eedff88b6d8fb0bbfb043
