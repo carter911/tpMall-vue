@@ -1,4 +1,4 @@
-# vue-manage-system #
+# tpmall #
 
 基于Vue.js + Element UI 的后台管理系统解决方案
 
@@ -6,10 +6,7 @@
 [English document](https://github.com/lin-xin/manage-system)
 
 ## 前言 ##
-之前在公司用了Vue + Element组件库做了个后台管理系统，基本很多组件可以直接引用组件库的，但是也有一些需求无法满足。像图片裁剪上传、富文本编辑器、图表等这些在后台管理系统中很常见的功能，就需要引用其他的组件才能完成。从寻找组件，到使用组件的过程中，遇到了很多问题，也积累了宝贵的经验。所以我就把开发这个后台管理系统的经验，总结成这个后台管理系统解决方案。
 
-该方案作为一套多功能的后台框架模板，适用于绝大部分的后台管理系统（Web Management System）开发。基于vue.js,使用vue-cli@3.2.3脚手架快速生成项目目录，引用Element UI组件库，方便开发快速简洁好看的组件。分离颜色样式，支持手动切换主题色，而且很方便使用自定义主题色。
-（已经升级到 vue-cli@3.2.3，请更新依赖）
 
 ## 功能 ##
 - [x] Element UI
@@ -31,9 +28,19 @@
 - [x] 可拖拽弹窗
 - [x] 国际化
 
+
+
+## 电商后台功能 ##
+- [ ] 首页DASHBOARD
+- [x] 商品管理
+- [ ] 用户管理
+- [ ] 订单管理
+- [ ] 系统权限
+- [ ] 数据统计
 ## 安装步骤 ##
 ```
-cd vue-manage-system    // 进入模板目录
+git clone https://github.com/carter911/tpMall-vue.git      // 把模板下载到本地
+cd tpMall-vue    // 进入模板目录
 npm install         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
 
 // 开启服务器，浏览器访问 http://localhost:8080
