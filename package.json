@@ -1,6 +1,6 @@
 {
-  "name": "vue-manage-system",
-  "version": "4.0.1",
+  "name": "tpmall",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "npm run serve",
