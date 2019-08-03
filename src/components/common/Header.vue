@@ -40,7 +40,7 @@
                 </el-dropdown> -->
                 <el-dropdown class="user-name" trigger="click" @command="handleCommand">
                     <span class="el-dropdown-link">
-                        admin <i class="el-icon-caret-bottom"></i>
+                        {{this.username}} <i class="el-icon-caret-bottom"></i>
                     </span>
                     <el-dropdown-menu slot="dropdown">
                         <a href="http://blog.gdfengshuo.com/about/" target="_blank">
@@ -69,15 +69,15 @@
         },
         computed:{
             username(){
-                let username = localStorage.getItem('ms_username');
-                return username ? username : this.name;
+                let admin = JSON.parse(localStorage.getItem('admin'));
+                return admin ? admin.name : 'admin';
             }
         },
         methods:{
             // 用户名下拉菜单选择事件
             handleCommand(command) {
                 if(command == 'loginout'){
-                    localStorage.removeItem('ms_username')
+                    localStorage.removeItem('token')
                     this.$router.push('/login');
                 }
             },
